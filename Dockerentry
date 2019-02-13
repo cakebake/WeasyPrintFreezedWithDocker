@@ -1,0 +1,11 @@
+#!/bin/sh
+
+pyinstaller weasyprint \
+  --name weasyprint \
+  --clean \
+  --onefile \
+  --add-data '/usr/local/lib/python3.6/dist-packages/pyphen/dictionaries:pyphen/dictionaries' \
+  --add-data '/usr/local/lib/python3.6/dist-packages/weasyprint/css/html5_ph.css:css' \
+  --add-data '/usr/local/lib/python3.6/dist-packages/weasyprint/css/html5_ua.css:css' \
+  --add-data '/usr/local/lib/python3.6/dist-packages/weasyprint/VERSION:.' \
+  --add-data '/usr/local/lib/python3.6/dist-packages/cairocffi/VERSION:cairocffi'
