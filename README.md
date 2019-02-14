@@ -11,7 +11,8 @@ Usage
 ### Build
 
 ```bash
-docker build -t weasyprintfreezedwithdocker https://github.com/cakebake/WeasyPrintFreezedWithDocker.git
+git clone https://github.com/cakebake/WeasyPrintFreezedWithDocker.git
+docker build -t weasyprintfreezedwithdocker .
 ```
 
 ### Run
