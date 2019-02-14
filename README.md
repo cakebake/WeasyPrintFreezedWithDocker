@@ -5,6 +5,11 @@ WeasyPrint freezed onefile binary generator with pyinstaller for linux with dock
 
 https://docs.python-guide.org/shipping/freezing/
 
+Download
+--------
+
+https://github.com/cakebake/WeasyPrintFreezedWithDocker/raw/master/dist/weasyprint
+
 Usage
 -----
 
